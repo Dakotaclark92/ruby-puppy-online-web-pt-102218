@@ -4,7 +4,7 @@ Class Dog
 
 attr_accessor :name
 
-def initialize 
+def initialize (name)
   @name = name
   
 
