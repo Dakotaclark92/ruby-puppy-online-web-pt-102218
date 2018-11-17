@@ -1,4 +1,6 @@
 Class Dog
 
-@@all
+@@all = []
+
+
 
