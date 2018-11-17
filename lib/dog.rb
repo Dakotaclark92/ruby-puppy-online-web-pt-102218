@@ -1,19 +1,3 @@
-Class Dog
-
-@@all = []
-
-attr_accessor :name
-
-def initialize (name)
-  @name = name
-  @@all = << self
-end
-
-def self.all
-  @@all
-end
-end
-
 class Dog
   
   @@all = []
@@ -22,4 +6,10 @@ class Dog
   
   def initialize (name)
     @name = name
-    @@all = << self
+    @@all << self
+  end
+  
+  def self.all
+    @@all
+  end
+end
