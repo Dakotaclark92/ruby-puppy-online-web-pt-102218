@@ -14,7 +14,7 @@ class Dog
   end
   
   def clear_all
-    Array.Clear
+    @@all
   end
   
 end
